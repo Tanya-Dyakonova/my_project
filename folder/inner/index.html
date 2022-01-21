@@ -4,12 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тестовая страница</title>
+    <title>Quiz-box</title>
 </head>
 <body>
-    <h1>Первое домашнее задание</h1>
-    <p>Тут просто вставлены <i>2 картинки</i> двумя способами</p>
-    <img src="/my_project/img/img1.png" alt="абсолютный путь">
-    <img src="../../img/img2.jpg" alt="относительный путь">
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container header__container">
+                <a href="./index.html" class="logo">
+                    <img src="" alt="logo" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Игры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <adress class="contacts">
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                    <a href="#" class="contacts__workhours">График работы</a>
+                </adress>
+            </div>
+        </header>
+
+        <main class="main-content">
+
+            <!-- Секция с оффером -->
+            <section class="hello">
+                <div class="container">
+                    <h1 class="hello_title">Интеллектуальный вечер для шумной компании</h1>
+                    <p class="hello__slogan">Игры на любой вкус</p>
+                    <a href="#" class="button">Подробнее</a>
+                </div>
+            </section>
+
+            <!-- Секция "Новинки недели" -->
+            <section class="offers">
+                <div class="container">
+                    <h2 class="title title--new">Новинки недели</h2>
+                    <ul class="offers__list">
+                        <!-- -------------------------------------------------------------------------------- -->
+                        <li class="offers__item">
+                            <img src="" alt="music game" class="offers__img">
+                            <div class="offers__content">
+                                <h3 class="subtitle subtitle--dark">Музыкальная игра</h3>
+                                <ul class="offers__options">
+                                    <li class="offers__option">
+                                        <img src="" alt="Clock" class="offers__option-img">
+                                        <div class="offers__option-text">90 минут</div>
+                                    </li>
+                                    <li class="offers__option">
+                                        <img src="" alt="Questions" class="offers__option-img">
+                                        <div class="offers__option-text">70 вопросов</div>
+                                    </li>
+                                </ul>
+                                <p class="offers__text">
+                                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                                </p>
+                                <a href="#" class="button button--light">Смотреть</a>
+                            </div>
+                        </li>
+                        <!-- -------------------------------------------------------------------------------- -->
+                        <li class="offers__item">
+                            <img src="" alt="Back in the 90s" class="offers__img">
+                            <div class="offers__content">
+                                <h3 class="subtitle subtitle--dark">Назад в 90-е</h3>
+                                <ul class="offers__options">
+                                    <li class="offers__option">
+                                        <img src="" alt="Clock" class="offers__option-img">
+                                        <div class="offers__option-text">90 минут</div>
+                                    </li>
+                                    <li class="offers__option">
+                                        <img src="" alt="Questions" class="offers__option-img">
+                                        <div class="offers__option-text">70 вопросов</div>
+                                    </li>
+                                </ul>
+                                <p class="offers__text">
+                                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                                </p>
+                                <a href="#" class="button button--light">Смотреть</a>
+                            </div>
+                        </li>
+                        <!-- -------------------------------------------------------------------------------- -->
+                        <li class="offers__item">
+                            <img src="" alt="IT quiz" class="offers__img">
+                            <div class="offers__content">
+                                <h3 class="subtitle subtitle--dark">IT-викторина</h3>
+                                <ul class="offers__options">
+                                    <li class="offers__option">
+                                        <img src="" alt="Clock" class="offers__option-img">
+                                        <div class="offers__option-text">90 минут</div>
+                                    </li>
+                                    <li class="offers__option">
+                                        <img src="" alt="Questions" class="offers__option-img">
+                                        <div class="offers__option-text">70 вопросов</div>
+                                    </li>
+                                </ul>
+                                <p class="offers__text">
+                                    Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
+                                </p>
+                                <a href="#" class="button button--light">Смотреть</a>
+                            </div>
+                        </li>
+                        <!-- -------------------------------------------------------------------------------- -->
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- Секция "Прошедшие игры" -->
+            <section class="passed">
+                <div class="container">
+                    <h2 class="title">Прошедшие игры</h2>
+                    <ul class="passed__list">
+                        <!-- -------------------------------------------------------------------------------- -->
+                        <li class="passed__item">
+                            <img src="" alt="Crazy people" class="passed__img">
+                            <div class="passed__content">
+                                <date class="passed__date">1 января</date>
+                                <h3 class="subtitle subtitle--light">Новогодний квиз</h3>
+                                <p class="passed__text">
+                                    Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+                                </p>
+                            </div>
+                        </li>
+                        <!-- -------------------------------------------------------------------------------- -->
+                        <li class="passed__item">
+                            <img src="" alt="Beautiful women" class="passed__img">
+                            <div class="passed__content">
+                                <date class="passed__date">8 марта</date>
+                                <h3 class="subtitle subtitle--light">Весенняя игра</h3>
+                                <p class="passed__text">
+                                    Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
+                                </p>
+                            </div>
+                        </li>
+                        <!-- -------------------------------------------------------------------------------- -->
+                    </ul>
+                    <div class="passed__navigation">
+                        <p class="passed__text">Страница 1 из 7</p>
+                        <ul class="passed__navigation__list">
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">1</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">2</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">3</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">4</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">5</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">6</span> </li>
+                            <li class="passed__navigation__item"> <span class="passed__navigation__numb">7</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Секция "О нас" -->
+            <section class="about">
+                <div class="container">
+                    <img src="" alt="Team" class="about__img">
+                    <div class="about__us">
+                        <h3 class="title">О нас</h3>
+                        <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                        <a href="#" class="button">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <a href="./index.html" class="logo">
+                    <img src="" alt="logo" class="logo__img">
+                </a>
+                <!-- -------------------------------------------------------------------------------- -->
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Игры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- -------------------------------------------------------------------------------- -->
+                <div class="footer__socials">
+                    <ul class="footer__socials__list">
+                        <li class="footer__socials__item">
+                            <a href="#" class="footer__socials__link" target="_blank">
+                                <div class="icon-component"></div>
+                            </a>
+                        </li>
+                        <li class="footer__socials__item">
+                            <a href="#" class="footer__socials__link" target="_blank">
+                                <div class="icon-component"></div>
+                            </a>
+                        </li>
+                        <li class="footer__socials__item">
+                            <a href="#" class="footer__socials__link" target="_blank">
+                                <div class="icon-component"></div>
+                            </a>
+                        </li>
+                        <li class="footer__socials__item">
+                            <a href="#" class="footer__socials__link" target="_blank">
+                                <div class="icon-component"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- -------------------------------------------------------------------------------- -->
+                <adress class="contacts">
+                    <div class="contacts__call">Бесплатный звонок по России</div>
+                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                </adress>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
